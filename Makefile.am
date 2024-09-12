@@ -18,9 +18,9 @@
 ##########################################################################
 
 # only enable deepsleep if requested
-if DEEPSLEEP_ENABLED
-SUBDIRS = ir power deepsleep
-else
-SUBDIRS = ir power
-endif
+#if DEEPSLEEP_ENABLED
+#SUBDIRS = ir power deepsleep
+#else
+#SUBDIRS = ir power
+#endif
 
